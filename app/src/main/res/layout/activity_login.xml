@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    >
+    <RelativeLayout android:id="@+id/login_header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        >
+
+        <TextView android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:padding="16dp"
+            android:textColor="#5e5a5a"
+            android:text="登录"/>
+    </RelativeLayout> <!--输入框-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" >
+
+        <EditText android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="请输入用户名"/> />
+
+        <EditText android:layout_below="@id/name"
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="请输入密码"/>
+        />
+    </RelativeLayout> <!--密码功能-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <Button android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认登录"
+            android:background="@drawable/button_style" />
+
+        <Button android:id="@+id/btn_forget_pwd"
+            android:layout_below="@id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="#2999ce"
+            android:gravity="start"
+            android:onClick="forgetPwd"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:text="忘记密码"/>
+
+        <Button android:id="@+id/register"
+            android:layout_below="@id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="#2999ce"
+            android:gravity="end"
+            android:text="注册"
+            android:layout_marginTop="16dp"
+            android:onClick="register"
+            android:textSize="16dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

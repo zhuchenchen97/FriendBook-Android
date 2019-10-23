@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/menu_title_bar_with_button"/>
+    <android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/dynamic_recyclerView"
+            android:layout_height="550dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="top"
+            app:layout_heightPercent = "90%"/>
+
+        <android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="bottom"
+            app:layout_heightPercent = "10%">
+            <EditText
+                android:id="@+id/comment_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="评论..."
+                android:background="@drawable/editshape"
+                android:layout_gravity="left"
+                app:layout_widthPercent = "80%"
+                />
+            <Button
+                android:id="@+id/comment_launch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="发布"
+                android:layout_gravity="right"
+                android:textSize="20sp"
+                app:layout_widthPercent = "20%"/>
+        </android.support.percent.PercentFrameLayout>
+    </android.support.percent.PercentFrameLayout>
+
+
+</LinearLayout>

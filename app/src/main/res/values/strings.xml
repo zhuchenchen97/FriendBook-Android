@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">友书</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="unknown">未知</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="jmui_loading">加载中</string>
+    <string name="action_settings">Settings</string>
+    <string name="jmui_resend_message_hint">重发该消息？</string>
+    <string name="jmui_resend_commit">重发</string>
+    <string name="jmui_cancel">取消</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="picker_image_error">获取图片出错</string>
+    <string name="picker_image_preview">预览</string>
+    <string name="picker_image_folder">相机胶卷</string>
+    <string name="picker_image_preview_original">发送原图</string>
+    <string name="picker_image_album_loading">相册加载中…</string>
+    <string name="picker_image_album_empty">相册中没有图片！</string>
+    <string name="picker_image_folder_info">共%d张</string>
+    <string name="added">已添加</string>
+    <string name="friend_inviting">等待验证</string>
+    <string name="decline_friend_invitation">对方已拒绝</string>
+    <string name="refused">已拒绝</string>
+    <string name="unknow_size">未知大小</string>
+
+    <string name="picker_image_preview_original_select">发送原图（%s）</string>
+    <string name="picker_image_send_select">发送（%d）</string>
+    <string name="picker_image_exceed_max_image_select">最多选择%d张图片！</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="network_disconnected_hint">当前网络不可用，请检查您的网络设置！</string>
+
+    <string name="jmui_time_format_year_month_day">yyyy年-MM月-dd日</string>
+    <string name="jmui_time_format_accuracy">yyyy-MM-dd HH:mm:ss </string>
+    <string name="jmui_time_format_hours">HH:mm</string>
+    <string name="jmui_yesterday">昨天</string>
+    <string name="jmui_before_yesterday">前天</string>
+    <string name="jmui_before_dawn">凌晨</string>
+    <string name="jmui_morning">早上</string>
+    <string name="jmui_afternoon">下午</string>
+    <string name="jmui_night">晚上</string>
+    <string name="jmui_monday">周一</string>
+    <string name="jmui_tuesday">周二</string>
+    <string name="jmui_wednesday">周三</string>
+    <string name="jmui_thursday">周四</string>
+    <string name="jmui_friday">周五</string>
+    <string name="jmui_saturday">周六</string>
+    <string name="jmui_sunday">周日</string>
+    <string name="year">年</string>
+    <string name="jmui_month">月</string>
+    <string name="jmui_day">日</string>
+    <string name="second">秒</string>
+
+
+    <string name="draft">[草稿]</string>
+    <string name="jmui_picture">图片</string>
+    <string name="type_picture">[图片]</string>
+    <string name="type_voice">[语音]</string>
+    <string name="type_location">[位置]</string>
+    <string name="type_file">[文件]</string>
+    <string name="type_smallvideo">[小视频]</string>
+    <string name="type_video">[视频]</string>
+    <string name="type_custom">[自定义消息]</string>
+
+    <string name="jmui_server_803008">消息已发出，但被对方拒收了。</string>
+    <string name="jmui_delete_conv">删除该聊天？</string>
+
+    <string name="title_activity_big_picture">BigPictureActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

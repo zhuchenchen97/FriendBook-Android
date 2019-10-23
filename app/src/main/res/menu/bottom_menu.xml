@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_menu_dongtai"
+        android:title="动态"
+        app:showAsAction="never"
+        android:id="@+id/share"/>
+    <item
+        android:icon="@drawable/ic_menu_bookshelf"
+        android:title="书架"
+        app:showAsAction="never"
+        android:id="@+id/bookshelf"
+        />
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_menu_chat"
+        android:title="聊天"
+        app:showAsAction="never"
+        />
+
+</menu>

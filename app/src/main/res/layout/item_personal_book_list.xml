@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/jmui_list_item_bg"
+    android:focusable="false"
+    android:layout_height="128dp">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:id="@+id/personal_books_list_image"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp" />
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="16dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/personal_books_list_name"
+            android:text="他改变了世界"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/personal_books_list_anthor"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personal_books_list_name"
+            android:text="董先森"/>
+        <TextView
+            android:text="2017-10-22"
+            android:id="@+id/personal_books_list_adddate"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/personal_books_list_anthor"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

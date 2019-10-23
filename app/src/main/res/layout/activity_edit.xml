@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/menu_title_bar_with_button"
+        android:id="@+id/edit_title"
+        android:gravity = "top"></include>
+    <EditText
+        android:id="@+id/edit_text_2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit_title"
+        android:hint="请输入内容"
+        android:maxLines="4"
+        android:lines="4"
+        android:maxLength="400"/>
+
+    <Button
+        android:id="@+id/edit_launch_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_2"
+        android:text="发布"/>
+    <Button
+        android:id="@+id/photo_launch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_launch_button"
+        android:text="上传照片"/>
+
+    <ImageView
+        android:id="@+id/launch_photo1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/photo_launch_button" />
+    <ImageView
+        android:id="@+id/launch_photo2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@id/launch_photo1"
+        android:layout_below="@id/photo_launch_button" />
+    <ImageView
+        android:id="@+id/launch_photo3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@id/launch_photo2"
+        android:layout_below="@id/photo_launch_button" />
+    <ImageView
+        android:id="@+id/launch_photo4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@id/launch_photo3"
+        android:layout_below="@id/photo_launch_button" />
+</RelativeLayout>
